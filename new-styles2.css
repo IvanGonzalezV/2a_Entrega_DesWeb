@@ -372,3 +372,14 @@ span {
     transform: scale(1.4);
 }
 
+.image-container i:hover {
+    transform: scale(1.4);
+}
+
+.image-container i {
+    transition: color 0.3s ease; /* Agrega una transición suave al cambio de color */
+}
+
+.image-container:hover i {
+    color: red; /* Cambia el color del icono cuando el contenedor se encuentre en estado hover */
+}
