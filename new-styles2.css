@@ -193,7 +193,7 @@ div.Takeda-container img {
 
 .text-container {
     background-color: lightgrey;
-    border: 3px solid goldenrod;
+    border: 1px solid black;
     margin: 0 auto;
     padding: 10px;
     width: 600px;
@@ -206,6 +206,10 @@ div.Takeda-container img {
 .container_2 {
     background: linear-gradient(rgba(73, 95, 150, 0.75),rgba(73, 95, 150, 0.75)),
     url(/Imagenes/Japanese_Pattern_8.webp);
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    border-bottom: 20px solid white;
 }
 
 .table-container_2 {
@@ -277,7 +281,9 @@ ul li {
 }
 
 .history-container {
-    font-size: 20px;
+    font-size: 15px;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .actualmente-container {
@@ -374,5 +380,9 @@ span {
 
 .image-container i:hover {
     transform: scale(1.4);
+}
+
+.ichi {
+    font-size: 100%;
 }
 
