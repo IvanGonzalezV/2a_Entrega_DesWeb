@@ -7,6 +7,9 @@
     list-style: none;
 }
 
+body {
+    background-image: linear-gradient(to bottom right, #dad4d4, #363636da, #dad4d4);
+}
  
 body {
     overflow-x: hidden;
@@ -282,8 +285,6 @@ ul li {
 
 .history-container {
     font-size: 15px;
-    margin-left: 7%;
-    margin-right: 7%;
 }
 
 .actualmente-container {
